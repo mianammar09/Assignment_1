@@ -175,7 +175,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
-            android:background="@drawable/round_cirlce"
+            android:background="@drawable/rounded"
             android:padding="3dp"
             app:srcCompat="@drawable/google" />
 

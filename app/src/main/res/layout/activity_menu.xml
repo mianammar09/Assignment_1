@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".Menu">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/facebook_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/messenger_color_svgrepo_com"
+        app:layout_constraintStart_toEndOf="@id/imageView10"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@id/imageView17"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/music_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Facebook"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView8"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="Goolge"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView12"
+        app:layout_constraintTop_toBottomOf="@id/imageView10"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:gravity="center"
+        android:text="Messenger"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView14"
+        app:layout_constraintTop_toBottomOf="@id/imageView17" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:gravity="center"
+        android:text="Music"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@id/imageView18" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/twitter_svgrepo_com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView12"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/spotify_color_svgrepo_com"
+        app:layout_constraintStart_toEndOf="@id/imageView19"
+        app:layout_constraintTop_toBottomOf="@id/textView14"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/setting_setting_svgrepo_com"
+        app:layout_constraintStart_toEndOf="@id/imageView20"
+        app:layout_constraintTop_toBottomOf="@id/textView15"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/imageView21"
+        app:layout_constraintTop_toBottomOf="@id/textView16"
+        app:srcCompat="@drawable/whatsapp_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="Twitter"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView19" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:gravity="center"
+        android:text="Spotify"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView17"
+        app:layout_constraintTop_toBottomOf="@id/imageView20" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:gravity="center"
+        android:text="Setting"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView18"
+        app:layout_constraintTop_toBottomOf="@id/imageView21" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+        android:text="Whatsapp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView19"
+        app:layout_constraintTop_toBottomOf="@id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView17"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/email"
+        app:layout_constraintStart_toEndOf="@id/imageView23"
+        app:layout_constraintTop_toBottomOf="@id/textView18"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/event"
+        app:layout_constraintStart_toEndOf="@id/imageView24"
+        app:layout_constraintTop_toBottomOf="@id/textView19"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/imageView25"
+        app:layout_constraintTop_toBottomOf="@id/textView20"
+        app:srcCompat="@drawable/bell" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:gravity="center"
+        android:text="Lock"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView23" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:gravity="center"
+        android:text="Spotify"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView21"
+        app:layout_constraintTop_toBottomOf="@id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:gravity="center"
+        android:text="Calender"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView22"
+        app:layout_constraintTop_toBottomOf="@id/imageView25" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:gravity="center"
+        android:text="Alarm"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/textView23"
+        app:layout_constraintTop_toBottomOf="@id/imageView26" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/baseline_man_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView21"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/imageView27"
+        app:layout_constraintTop_toBottomOf="@id/textView22"
+        app:srcCompat="@drawable/amazon_pay_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/daraz_svgrepo_com"
+        app:layout_constraintStart_toEndOf="@id/imageView28"
+        app:layout_constraintTop_toBottomOf="@id/textView23"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:gravity="center"
+        android:text="Fitness"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView27"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:gravity="center"
+        android:text="Fitness"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/textView25"
+        app:layout_constraintTop_toBottomOf="@id/imageView28" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:gravity="center"
+        android:text="Daraz"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/textView26"
+        app:layout_constraintTop_toBottomOf="@id/imageView29" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

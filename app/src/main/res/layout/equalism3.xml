@@ -46,8 +46,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:src="@color/cardview_shadow_start_color"
-            app:layout_constraintEnd_toEndOf="ConstraintLay"/>
+            android:src="@color/cardview_shadow_start_color" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -185,6 +184,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:id="@+id/b"
             android:layout_width="238dp"
             android:layout_height="52dp"
             android:text="Install"
